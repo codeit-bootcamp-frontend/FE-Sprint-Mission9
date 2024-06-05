@@ -14,7 +14,7 @@ import {
   ImageWrapper,
   MainContent,
   Timestamp,
-} from "../BoardsStyles";
+} from "@/styles/BoardsStyles";
 import Image from "next/image";
 import { format } from "date-fns";
 import Link from "next/link";
@@ -65,7 +65,7 @@ const ArticleItem: React.FC<ArticleItemProps> = ({ article }) => {
         <ArticleInfo>
           <ArticleInfoDiv>
             {/* ProfilePlaceholder 아이콘의 SVG 파일에서 고정된 width, height을 삭제했어요 */}
-            <ProfilePlaceholder width={24} height={24} />
+            {/* <ProfilePlaceholder width={24} height={24} /> */}
             {article.writer.nickname} <Timestamp>{dateString}</Timestamp>
           </ArticleInfoDiv>
 

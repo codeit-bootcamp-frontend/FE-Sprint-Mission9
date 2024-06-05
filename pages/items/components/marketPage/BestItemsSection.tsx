@@ -2,13 +2,9 @@ import { useEffect, useState } from "react";
 import ItemCard from "./ItemCard";
 import { getProducts } from "@/api/itemApi";
 import LoadingSpinner from "@/components/ui/LoadingSpinner";
-import {
-  Product,
-  ProductListResponse,
-  ProductSortOption,
-} from "@/types/productTypes";
+import { Product, ProductListResponse } from "@/types/productTypes";
 import styled from "styled-components";
-import { MarketSectionTitle } from "../../MarketStyles";
+import { MarketSectionTitle } from "@/styles/MarketStyles";
 import useViewport from "@/hooks/useViewport";
 
 const BestItemsContainer = styled.div`

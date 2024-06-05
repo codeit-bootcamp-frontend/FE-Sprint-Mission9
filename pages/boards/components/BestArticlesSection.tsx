@@ -17,7 +17,7 @@ import {
   ImageWrapper,
   MainContent,
   Timestamp,
-} from "../BoardsStyles";
+} from "@/styles/BoardsStyles";
 import MedalIcon from "@/public/images/icons/ic_medal.svg";
 import useViewport from "@/hooks/useViewport";
 import LikeCountDisplay from "@/components/ui/LikeCountDisplay";

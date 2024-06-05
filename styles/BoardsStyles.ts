@@ -1,5 +1,5 @@
-import { SpaceBetween } from "@/styles/CommonStyles";
 import styled from "styled-components";
+import { SpaceBetween } from "@/styles/CommonStyles";
 
 export const ArticleTitle = styled.h2`
   font-size: 18px;
