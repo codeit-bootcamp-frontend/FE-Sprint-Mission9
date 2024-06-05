@@ -1,5 +1,5 @@
-import BestItemsSection from "./components/marketPage/BestItemsSection";
-import AllItemsSection from "./components/marketPage/AllItemsSection";
+import BestItemsSection from "../../components/items/marketPage/BestItemsSection";
+import AllItemsSection from "../../components/items/marketPage/AllItemsSection";
 import { Container } from "@/styles/CommonStyles";
 
 const MarketPage: React.FC = () => {
